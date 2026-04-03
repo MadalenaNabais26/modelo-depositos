@@ -164,7 +164,7 @@ st.subheader("1) Inserir medições")
 
 col1, col2 = st.columns(2)
 with col1:
-    dureza = st.number_input("Dureza da água (mg CaCO₃/L)", min_value=0.0, value=200.0, step=1.0)
+    dureza = st.number_input("Dureza da água (mg CaCO₃/L)", min_value=0.0, value=20.0, step=1.0)
 with col2:
     ph_evento = st.number_input("pH no dia do evento", min_value=0.0, max_value=14.0, value=5.5, step=0.1)
 
