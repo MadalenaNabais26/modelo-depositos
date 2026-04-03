@@ -133,7 +133,7 @@ def plot_mapa_risco_com_contornos(
 # =========================
 # Interface
 # =========================
-st.title("🧪 Previsão do risco de formação de depósitos")
+st.title("Previsão do risco de formação de depósitos")
 st.write(
     "Ferramenta para estimar o risco de formação de depósitos "
     "(proxy: recuperação prolongada do pH) a partir de medições de "
