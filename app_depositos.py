@@ -12,7 +12,6 @@ from matplotlib.patches import Rectangle
 # =========================
 st.set_page_config(
     page_title="Previsão de Depósitos",
-    page_icon="🧪",
     layout="centered"
 )
 
